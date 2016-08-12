@@ -1,2 +1,13 @@
 .modal-dialog {width:600px;}
 .thumbnail {margin-bottom:6px;}
+
+@media (max-width: 1000px){
+  .service_image{
+    width: 80%;
+    padding: 15px;
+  }
+  .service_box{
+    text-align: center;
+    /*border: 2px solid grey;*/
+  }
+}

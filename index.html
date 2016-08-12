@@ -124,6 +124,29 @@
 			</div><!--end well-->
 		</section><!--call to action-->
 
+<!-- MODAL -->
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="service" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL -->
 	<!-- Services Grid -->
 		<div class="container">
 				<section>
@@ -131,29 +154,33 @@
 						<h2>Services</h2><small>Our Services</small>
 					</div>
 
+<!-- 					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button> -->
+
 					<div class="row">
-						<div class="col-lg-2">
-							<a href="img/01.png" data-lightbox="gallery"><img src="img/01-tn.png"></a>
+						<div class="col-lg-2 col-xs-6 service_box">
+							<a href="img/01.png" data-toggle="modal" data-target="#service" data-lightbox="gallery"><img class="service_image" src="img/01-tn.png"></a>
 						</div>
 
-						<div class="col-lg-2">
-							<a href="img/02.png"><img src="img/02-tn.png"></a>
+						<div class="col-lg-2 col-xs-6 service_box">
+							<a href="img/02.png"><img class="service_image" src="img/02-tn.png"></a>
 						</div>
 
-						<div class="col-lg-2">
-							<a href="img/03.png"><img src="img/03-tn.png"></a>
+						<div class="col-lg-2 col-xs-6 service_box">
+							<a href="img/03.png"><img class="service_image" src="img/03-tn.png"></a>
 						</div>
 
-						<div class="col-lg-2">
-							<a href="img/04.png"><img src="img/04-tn.png"></a>
+						<div class="col-lg-2 col-xs-6 service_box">
+							<a href="img/04.png"><img class="service_image" src="img/04-tn.png"></a>
 						</div>
 
-						<div class="col-lg-2">
-							<a href="img/05.png"><img src="img/05-tn.png"></a>
+						<div class="col-lg-2 col-xs-6 service_box">
+							<a href="img/05.png"><img class="service_image" src="img/05-tn.png"></a>
 						</div>
 
-						<div class="col-lg-2">
-							<a href="img/06.png"><img src="img/06-tn.png"></a>
+						<div class="col-lg-2 col-xs-6 service_box">
+							<a href="img/06.png"><img class="service_image" src="img/06-tn.png"></a>
 						</div>
 					</div>
 
@@ -257,7 +284,7 @@
 
 		<div class="container">
 			<section>
-				<div class="page-header" id="#contact">
+				<div class="page-header" id="contact">
 					<h2>Contact</h2><small>Say hi</small>
 				</div><!--end of page header-->
 

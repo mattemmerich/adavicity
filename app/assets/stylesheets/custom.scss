@@ -1,0 +1,44 @@
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+
+
+.hover_image{
+	display: none;
+}
+.lg{
+	display: block;
+	width: 100%;
+
+}
+.sm{
+	display: none;
+	width: 100%;
+}
+
+
+
+
+@media (max-width:1000px){
+	.service_box > a > img{
+		margin: 0;
+		padding:0;
+		width: 40%;
+	}
+	.service_items{
+		text-align: center;
+	}
+	.clients{
+		margin-top: 30px;
+	}
+	.lg{
+
+		display: none;
+
+	}
+
+	.sm{
+		display: block;
+
+	}
+}

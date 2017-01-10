@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adavicity1</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!--jQuerry-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+
+	<!--Lightbox JS-->
+
+	<!-- Custom CSS -->
+</head>
+<body>
+
+	<!-- Navbar-->
+	<nav class= "navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="" class="navbar-brand">ADAVICITY</a>
+			</div><!-- Navbar Header -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav"> 
+					<li><a href="#services">Services</a>
+						<li><a href="#clients">Clients</a>
+							<li><a href="#staff">Staff</a>
+								<li><a href="#feedback">Feedback</a>
+									<li><a href="#faq">FAQ</a>
+										<li><a href="#contact">ContactUs</a>
+										</ul>
+									</div>
+								</div><!--end container-->
+							</nav><!--end navbar-->
+
+							<%= yield %>
+
+							<!--Footer-->
+
+							<footer>
+
+								<div class="container text-center">
+									<h3></h3>
+									<p></p>
+
+									<hr>
+
+									<ul class="list-inline">
+										<li><a href="http://www.twitter.com">Twitter</a></li>
+										<li><a href="http://www.facebook.com">Facebook</a></li>
+										<li><a href="http://www.youtube.com">YouTube</a></li>
+									</ul>
+									<hr>
+									<p>&copy;Copyright @ 2016</p>
+
+								</div><!--end Container-->
+							</footer><!--end Footer-->
+
+						</body>
+						</html>
